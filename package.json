@@ -8,7 +8,7 @@
     "license": "MIT",
     "dependencies": {
         "browserify-fs": "^1.0.0",
-        "htl-compiler": "^1.0.2",
+        "htl-compiler": "^1.0.10",
         "htmlparser2": "^3.10.1",
         "lodash": "^4.17.13",
         "parse5": "^5.1.0"
