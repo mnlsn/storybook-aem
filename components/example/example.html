@@ -1,0 +1,18 @@
+<sly data-sly-use.headerComponent="some.path.to.a.java.headerComponent">
+    <div data-name="Mike">
+        <h1>
+            <span>${headerComponent.title}</span>
+            <span data-sly-test="${headerComponent.showFirstName}"
+                >${headerComponent.firstName}</span
+            >
+            <span data-sly-test="${headerComponent.showLastName}"
+                >${headerComponent.lastName}</span
+            >
+        </h1>
+        <div class="body-wrapper">
+            <p>${headerComponent.description}</p>
+        </div>
+    </div>
+
+    <div data-sly-resource="foo"></div>
+</sly>

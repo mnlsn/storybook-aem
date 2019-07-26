@@ -1,0 +1,31 @@
+{
+    "name": "storybook-aem",
+    "version": "1.0.0",
+    "description": "Storybook/React for AEM Development with HTL",
+    "main": "index.js",
+    "repository": "https://github.com/icfnext/storybook-htl.git",
+    "author": "Mike Nelson",
+    "license": "MIT",
+    "dependencies": {
+        "browserify-fs": "^1.0.0",
+        "htl-compiler": "^1.0.2",
+        "htmlparser2": "^3.10.1",
+        "lodash": "^4.17.13",
+        "parse5": "^5.1.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.4.4",
+        "@storybook/addon-actions": "^5.0.11",
+        "@storybook/addon-links": "^5.0.11",
+        "@storybook/addons": "^5.0.11",
+        "@storybook/react": "^5.0.11",
+        "babel-loader": "^8.0.5",
+        "html-loader": "^0.5.5",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6"
+    },
+    "scripts": {
+        "storybook": "start-storybook -p 6006",
+        "build-storybook": "build-storybook"
+    }
+}

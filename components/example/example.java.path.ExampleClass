@@ -1,0 +1,8 @@
+module.exports = class ExampleClass {
+    use() {
+        return {
+            title: "Hello, World!",
+            description: "Some stuff."
+        };
+    }
+};
