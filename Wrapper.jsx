@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Compiler from "htl-compiler/dist/compiler";
+import Compiler from "htl-compiler/dist/compiler-esm";
 
 async function compileHtlToHtml(htl, resourceData, useModels, resourceTypes) {
     const c = new Compiler(htl, resourceData, useModels, resourceTypes);
